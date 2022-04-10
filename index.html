@@ -434,6 +434,74 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div class="modal-close" data-modal-close=""></div>
+        <div class="form">
+          <p class="title-form">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="speaker-form">
+            <label class="speaker-label" for="name">Имя</label>
+            <div class="speaker-box">
+              <input
+                class="speaker-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder=" "
+              />
+              <svg class="speaker-item">
+                <use href="./images/lesson6.svg#icon-person-black"></use>
+              </svg>
+            </div>
+            <label class="speaker-label" for="tel">Телефон</label>
+            <div class="speaker-box">
+              <input
+                class="speaker-input"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder=" "
+              /><svg class="speaker-item">
+                <use href="./images/lesson6.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+            <label class="speaker-label" for="mail">Почта</label>
+            <div class="speaker-box">
+              <input
+                class="speaker-input"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder=" "
+              /><svg class="speaker-item">
+                <use href="./images/lesson6.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <label class="speaker-label" for="comment">Комментарии</label>
+            <textarea
+              class="speaker-input speaker-textarea"
+              type="email"
+              name="comment"
+              id="comment"
+              cols="53"
+              rows="5"
+              placeholder="Введите текст заявки"
+            ></textarea>
+            <label class="speaker-label-checkbox" for="checkbox">
+              <input
+                class="speaker-input-checkbox"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
+              <span class="checkbox-checkmart">
+                <!-- <svg class="checkbox-item">
+                  <use href="./images/lesson6.svg#icon-icon-check"></use>
+                </svg> -->
+              </span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="checkbox-link" href="#">Условия договора</a>
+            </label>
+            <button class="speaker-btn" type="submit">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>

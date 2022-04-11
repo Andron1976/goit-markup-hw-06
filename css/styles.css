@@ -53,7 +53,6 @@ img {
 .head-contacts {
   display: flex;
   align-items: center;
-  
 }
 
 .logotyp-head,
@@ -129,16 +128,18 @@ img {
   margin: 0;
   display: flex;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-head:hover,
 .contact-head:focus {
   color: var(--specific-color);
-} 
+}
 .contact-head:hover .contact-head-icon,
-.contact-head:focus .contact-head-icon{
-fill: var(--specific-color);}
+.contact-head:focus .contact-head-icon {
+  fill: var(--specific-color);
+}
 
 /* hero */
 .hero {
@@ -148,9 +149,12 @@ fill: var(--specific-color);}
   text-align: center;
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient( 125deg, rgba(49, 43, 43, 0.7), rgba(47, 48, 58, 0.4)),
-   url("../images/Imgfon.jpg");
-  
+  background-image: linear-gradient(
+      125deg,
+      rgba(49, 43, 43, 0.7),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/Imgfon.jpg");
 }
 .hero-container {
   display: flex;
@@ -180,8 +184,6 @@ fill: var(--specific-color);}
   border: none;
   border-radius: 4px;
 }
-
-
 
 /* sections */
 h2,
@@ -282,10 +284,9 @@ h3 {
   background-color: var(--specific-bg-color);
 }
 .team-card {
-  box-shadow: 0px 2px 1px 0px #00000033,
-  0px 1px 1px 0px #00000024,
-  0px 1px 3px 0px #0000001F;
-} 
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+}
 .team-links {
   color: var(--title-text-color);
   font-weight: 500;
@@ -331,7 +332,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -340,7 +341,7 @@ h3 {
   width: 106px;
   height: 60px;
   margin: 0;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients:hover,
@@ -348,7 +349,7 @@ h3 {
   border: 2px solid var(--specific-color);
 }
 .clients:hover .clients-icon,
-.clients:focus .clients-icon   {
+.clients:focus .clients-icon {
   fill: var(--specific-color);
 }
 
@@ -372,15 +373,17 @@ h3 {
   padding: 6px 22px;
   margin-right: 8px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-element:hover,
 .button-element:focus {
   color: var(--accent-color);
   background-color: var(--specific-color);
-  box-shadow: 0px 2px 2px 0px #0000001F,
-  0px 1px 2px 0px #00000014,
-  0px 3px 1px 0px #0000001A;
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
   border-radius: 4px;
   border: none;
 }
@@ -399,9 +402,8 @@ h3 {
 }
 .advertising-block:hover,
 .advertising-block:focus {
-  box-shadow: 1px 4px 6px 0px #00000029,
-  0px 4px 4px 0px #0000000F,
-  0px 1px 1px 0px #0000001F;
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
 }
 .advertising-image {
   height: 294px;
@@ -430,7 +432,6 @@ h3 {
   line-height: 1.56;
   color: var(--accent-color);
 }
-  
 
 .advertising-content {
   border-bottom: 1px solid #eeeeee;
@@ -445,7 +446,7 @@ h3 {
   font-weight: 700;
   line-height: 2;
   text-decoration: none;
-  margin:  0 0 4px;
+  margin: 0 0 4px;
 }
 .advertising-variety {
   color: var(--primary-text-color);
@@ -456,7 +457,6 @@ h3 {
   line-height: 1.88;
   margin: 0px;
 }
-
 
 /* footer */
 .footer {
@@ -531,7 +531,8 @@ h3 {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover {
   background-color: var(--specific-color);
@@ -539,17 +540,68 @@ h3 {
 .socials-img {
   width: 20px;
   height: 20px;
-  fill: var(--accent-color);}
-
-.gray-img {
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-.socials-link:hover .gray-img,
-.socials-link:focus .gray-img {
-    fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
+.gray-img {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socials-link:hover .gray-img,
+.socials-link:focus .gray-img {
+  fill: var(--accent-color);
+}
+/*subskription-block*/
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0 0;
+  margin-left: 93px;
+}
+.footer-subskription {
+  display: flex;
+  align-items: center;
+}
+.subskription-input {
+  width: 358px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  padding-left: 16px;
+  outline: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subskription-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.subskription-input:focus {
+  border: 1px solid var(--specific-color);
+}
+.subskription-button {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  width: 200px;
+  height: 50px;
+  background-color: var(--specific-color);
+  color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-right: 50px;
+}
+.subskription-item {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 50px;
+}
 /*modal-window*/
 .backdrop {
   position: fixed;
@@ -561,12 +613,11 @@ h3 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  box-shadow:
-    0px 2px 1px 0px #00000033,
-    0px 1px 1px 0px #00000024,
-    0px 1px 3px 0px #0000001F;
-  opacity: 1;  
-  transition: opacity 0.25s, visibility 0.25s;
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -584,11 +635,10 @@ h3 {
   padding: 40px;
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 0.25s;
-  }
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-close {
   position: absolute;
@@ -656,7 +706,8 @@ h3 {
 .speaker-box {
   position: relative;
   margin-bottom: 10px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .speaker-input {
@@ -668,7 +719,8 @@ h3 {
   border-radius: 4px;
   padding-left: 30px;
   outline: none;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .speaker-item {
@@ -688,7 +740,6 @@ h3 {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
-
 }
 
 .speaker-textarea::placeholder {
@@ -713,7 +764,7 @@ h3 {
   width: 0px;
   height: 0px;
   z-index: -1;
-}   
+}
 .checkbox-checkmart {
   position: absolute;
   width: 16px;
@@ -724,7 +775,7 @@ h3 {
   border-radius: 4px;
 }
 
- .checkbox-item {
+.checkbox-item {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -736,7 +787,7 @@ h3 {
 }
 .speaker-input-checkbox:checked ~ .checkbox-checkmart > .checkbox-item {
   fill: var(--accent-color);
-} 
+}
 .speaker-btn {
   font-weight: 700;
   font-size: 16px;
@@ -754,7 +805,7 @@ h3 {
 }
 
 .speaker-btn:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .speaker-input:focus {
@@ -762,14 +813,4 @@ h3 {
 }
 .speaker-input:focus ~ .speaker-item {
   fill: var(--specific-color);
-} 
-.footer-form {
-  display: flex;
-  flex-direction: column;
-  padding: 12px 0 0;
-  margin-left: 93px;
-}
-.subskription-item {
-  width: 24px;
-  height: 24px;
 }

@@ -429,6 +429,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <h3 class="successes-title color-aside">Подпишитесь на рассылку</h3>
+        <form class="footer-subskription">
+          <label for="subs"></label>
+          <input
+            type="text"
+            class="subskription-input"
+            name="subs"
+            id="subs"
+            placeholder="E-mail"
+          />
+          <div class="subskription-block">
+            <button class="subskription-button" type="submit">
+              Подписаться
+            </button>
+            <svg class="subskription-item">
+              <use href="./images/lesson6.svg#icon-icon-send"></use>
+            </svg>
+          </div>
+        </form>
       </div>
     </footer>
 
@@ -436,8 +456,10 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div class="modal-close" data-modal-close=""></div>
-        <div class="form">
-          <p class="title-form">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="modal-form">
+          <p class="title-modal-form">
+            Оставьте свои данные, мы вам перезвоним
+          </p>
           <form class="speaker-form">
             <label class="speaker-label" for="name">Имя</label>
             <div class="speaker-box">
@@ -486,17 +508,17 @@
               rows="5"
               placeholder="Введите текст заявки"
             ></textarea>
-            <label class="speaker-label-checkbox" for="checkbox">
+            <label class="speaker-label-checkbox" for="check">
               <input
                 class="speaker-input-checkbox"
                 type="checkbox"
                 name="checkbox"
-                id="checkbox"
+                id="check"
               />
               <span class="checkbox-checkmart">
-                <!-- <svg class="checkbox-item">
-                  <use href="./images/lesson6.svg#icon-icon-check"></use>
-                </svg> -->
+                <svg class="checkbox-item">
+                  <use href="./images/check.svg#icon-Vector-15"></use>
+                </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю
               <a class="checkbox-link" href="#">Условия договора</a>
